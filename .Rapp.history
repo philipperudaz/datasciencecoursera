@@ -1,0 +1,282 @@
+vector <- c("Bill", "Gina", "kelly", "Sean")
+patients  <- vector ("character")
+patients <- c("Bill", "Gina", "Kelly", "Sean")
+cbind(patients, my_matrix)
+my_data <- data.frame(patients, my_matrix)
+my_data
+class(my_data)
+cnames <- c("patient", "age", "weight", "bp", "rating", "test")
+colnames(6)
+colnames(cnames)
+colnames(my_data) <-cnames
+my_data
+swril()
+swirl()
+bye()
+swirl
+swirl()
+library()
+library ("swirl")
+swirl()
+x <- c(4, TRUE)
+class (x)
+x <- c(1,3, 5)
+x
+y <- c(3,2,10)
+y
+cbind(x,y)
+x <- 1:4
+x
+y <- 2:3
+y
+x+y
+y+x
+x <- list(2, "a", "b", TRUE)
+x
+x[[2]]
+x <- c(17, 14, 4, 5, 13, 12, 10)
+x
+x[x>10] <-4
+x
+read.table (hw1_data.csv)
+read.table ("hw1_data.csv")
+read.csv("hw1_data.csv", header=TRUE)
+read.table("hw1_data.csv", header=TRUE)
+is.na(x)
+my_data <- read.csv("hw1_data.csv", header=TRUE)
+my data
+my_data
+is.na(my_data)
+colSums(is.na(x))
+colSums(!is.na(my_data))
+colSums(is.na(my_data))
+newdata <- na.omit(my_data)
+newdata
+colSums(is.na(newdata))
+mean (newdata)
+mean("ozone")
+mean("Ozone")
+colMeans(newdata, na.rm = FALSE, dims = 1)
+colMeans(my_data, na.rm = FALSE, dims = 1)
+colMeans(my_data, na.rm = TRUE, dims = 1)
+newdata
+newdata2 <- subset(newdata, Ozone >= 31 & Temp > 90)
+newdata2
+mean(newdata2)
+colMeans(newdata2, na.rm = TRUE, dims = 1)
+colMeans(newdata2, na.rm = FALSE, dims = 1)
+newdata4 <- subset(newdata, Month =6)
+newdata4
+newdata4 <- subset(newdata, Month ==6)
+newdata4
+colMeans(newdata4, na.rm = FALSE, dims = 1)
+colMeans(newdata4, na.rm = TRUE, dims = 1)
+newdata5 <-subset(newdata2, Month ==6)
+newdata5
+newdata
+newdata6 <-subset(my_data, Month ==6)
+newdata6
+colMeans(newdata6, na.rm = TRUE, dims = 1)
+colMeans(newdata6, na.rm = FASLE, dims = 1)
+colMeans(newdata6, na.rm = FALSE, dims = 1)
+newdata7 <-subset(my_data, Month ==5)
+newdata7
+colMax (newdata7)
+colMax(newdata7)
+colMaxs(newdata7)
+max(newdata7, na.rm=TRUE)
+Colmax(newdata7, na.rm=TRUE)
+colMax(newdata7, na.rm=TRUE)
+which.max( matrix[Ozone])
+library()
+swirl()
+library("swirl")
+ls()
+ro(list=ls())
+rm(list=ls())
+swirl()
+library(swirl)
+install_from_swirl("Data Analysis")
+swirl
+swirl()
+nxt()
+bye()
+install . packages (" XLConnect " )
+install.packages (" XLConnect " )
+poluttantmean<-mean(specdata, pollutant, id = 1:332)
+getwd()
+poluttantmean<-mean("specdata", pollutant, id = 1:332)
+pollutantmean <- mean(directory, pollutant, id = 1:332) {#
+        ## 'directory' is a character vector of length 1 indicating#
+        ## the location of the CSV files#
+#
+        ## 'pollutant' is a character vector of length 1 indicating#
+        ## the name of the pollutant for which we will calculate the#
+        ## mean; either "sulfate" or "nitrate".#
+#
+        ## 'id' is an integer vector indicating the monitor ID numbers#
+        ## to be used#
+#
+        ## Return the mean of the pollutant across all monitors list#
+        ## in the 'id' vector (ignoring NA values)#
+}
+source(poluttantmean.R)
+source("poluttantmean.R")
+poluttmean("specdata", "nitrate", 23)
+poluttantmean("specdata", "nitrate", 23)
+source("pollutantmean.R")
+pollutantmean("specdata", "nitrate", 23)
+pollutantmean("specdata", "nitrate", 70:72)
+pollutantmean("specdata", "sulfate", 1:10)
+source("pollutantmean.R")
+pollutantmean("specdata", "nitrate", 23)
+source("complete.R")
+complete("specdata", (30:25)
+complete("specdata", 30:25)
+source ("complete.R")
+source("complete.R")
+complete("specdata", 30:25)
+?cor
+source("submitscript1.R")
+source("http://d396qusza40orc.cloudfront.net/rprog%2Fscripts%2Fsubmitscript1.R")
+submit()
+2
+submit()
+sbmit()
+submit()
+complete("specdata", 30:25)
+submit()
+complete("specdata", 30:25)
+submit()
+getwd()
+list(wd)
+complete("specdata", c(2, 4, 8, 10, 12))
+complete("specdata", 30:25)
+source("complete.r")
+source("complete.R")
+source("complete.r")
+source(complete.R)
+source("complete.R")
+complete("specdata",1:12)
+submit()
+complete("specdata",1:12)
+submit()
+source("complete.R")
+complete("specdata",1:12)
+source("complete.R")
+complete("specdata",1:12)
+complete("specdata",300)
+complete("specdata", 30:25)
+complete("specdata", 3)
+source("complete.R")
+complete("specdata", 3)
+source("complete.R")
+complete("specdata", 3)
+submit()
+source("http://d396qusza40orc.cloudfront.net/rprog%2Fscripts%2Fsubmitscript1.R")
+submit()
+source("complete.R")
+complete("specdata", 3)
+source("complete.R")
+complete("specdata", 3)
+submit()
+complete("specdata", 3)
+?$
+$?
+?(?)
+?($)
+?"$"
+?"return"
+init()
+Init()
+source("complete.R")
+complete("specdata", 3)
+submit()
+6
+submit()
+?("for")
+?("getmonitor")
+source("complete2.R")
+complete("specdata", 3)
+complete("specdata", 3:234)
+complete("specdata", 2)
+complete("specdata", 4)
+?("print"")
+?print
+?(print)
+source("corr.R")
+source("complete.R")
+?("head")
+corr("specdata", 150)
+submit()
+source("http://d396qusza40orc.cloudfront.net/rprog%2Fscripts%2Fsubmitscript1.R")
+submit()
+sumbit()
+submit()
+cube <- function(x, n) {
+x^3
+}
+cube(3)
+x <- 1:10#
+if(x > 5) {#
+        x <- 0#
+}
+f <- function(x) {#
+        g <- function(y) {#
+                y + z#
+        }#
+        z <- 4#
+        x + g(x)#
+}
+z <- 10
+f(3)
+x <- 5#
+y <- if(x < 3) {#
+        NA#
+} else {#
+        10#
+}
+y <-(x==2)
+y
+x <- 5#
+y <- if(x < 3) {#
+        NA#
+} else {#
+        10#
+}
+y
+y <-(x=2)
+y
+''
+?("NA")
+swirl()
+library("swirl")
+ls()
+re(list=ls)
+rm(list=ls())
+swirl()
+cars
+cars$mpgCity
+myMPG <- cars$mpgCity
+mean(myMPG)
+median(mympgCity)
+median(myMPG)
+table(myMPG)
+29
+19
+library()
+library("swirl")
+ls()
+rm(list=ls())
+swirl
+swirl()
+range(cars$price)
+range(7.4, 61.9)
+61.9-7.4
+car(data$price)
+var(car$price)
+var(cars$price)
+sd(cars$price)
+(bye)
+option()
+bye()
