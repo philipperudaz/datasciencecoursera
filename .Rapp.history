@@ -1,86 +1,3 @@
-vector <- c("Bill", "Gina", "kelly", "Sean")
-patients  <- vector ("character")
-patients <- c("Bill", "Gina", "Kelly", "Sean")
-cbind(patients, my_matrix)
-my_data <- data.frame(patients, my_matrix)
-my_data
-class(my_data)
-cnames <- c("patient", "age", "weight", "bp", "rating", "test")
-colnames(6)
-colnames(cnames)
-colnames(my_data) <-cnames
-my_data
-swril()
-swirl()
-bye()
-swirl
-swirl()
-library()
-library ("swirl")
-swirl()
-x <- c(4, TRUE)
-class (x)
-x <- c(1,3, 5)
-x
-y <- c(3,2,10)
-y
-cbind(x,y)
-x <- 1:4
-x
-y <- 2:3
-y
-x+y
-y+x
-x <- list(2, "a", "b", TRUE)
-x
-x[[2]]
-x <- c(17, 14, 4, 5, 13, 12, 10)
-x
-x[x>10] <-4
-x
-read.table (hw1_data.csv)
-read.table ("hw1_data.csv")
-read.csv("hw1_data.csv", header=TRUE)
-read.table("hw1_data.csv", header=TRUE)
-is.na(x)
-my_data <- read.csv("hw1_data.csv", header=TRUE)
-my data
-my_data
-is.na(my_data)
-colSums(is.na(x))
-colSums(!is.na(my_data))
-colSums(is.na(my_data))
-newdata <- na.omit(my_data)
-newdata
-colSums(is.na(newdata))
-mean (newdata)
-mean("ozone")
-mean("Ozone")
-colMeans(newdata, na.rm = FALSE, dims = 1)
-colMeans(my_data, na.rm = FALSE, dims = 1)
-colMeans(my_data, na.rm = TRUE, dims = 1)
-newdata
-newdata2 <- subset(newdata, Ozone >= 31 & Temp > 90)
-newdata2
-mean(newdata2)
-colMeans(newdata2, na.rm = TRUE, dims = 1)
-colMeans(newdata2, na.rm = FALSE, dims = 1)
-newdata4 <- subset(newdata, Month =6)
-newdata4
-newdata4 <- subset(newdata, Month ==6)
-newdata4
-colMeans(newdata4, na.rm = FALSE, dims = 1)
-colMeans(newdata4, na.rm = TRUE, dims = 1)
-newdata5 <-subset(newdata2, Month ==6)
-newdata5
-newdata
-newdata6 <-subset(my_data, Month ==6)
-newdata6
-colMeans(newdata6, na.rm = TRUE, dims = 1)
-colMeans(newdata6, na.rm = FASLE, dims = 1)
-colMeans(newdata6, na.rm = FALSE, dims = 1)
-newdata7 <-subset(my_data, Month ==5)
-newdata7
 colMax (newdata7)
 colMax(newdata7)
 colMaxs(newdata7)
@@ -280,3 +197,86 @@ sd(cars$price)
 (bye)
 option()
 bye()
+library(datasets)
+data(iris)
+?iris
+read(iris)
+iris
+mean([,virginica])
+mean(iris[,virginica])
+mean(iris[,"virginica"])
+iris["virginica"]
+iris["virginica",]
+iris[,"virginica"]
+iris[c("virginica"),]
+newdata <- subset(iris, Species == "virginica")
+newdata
+newdata_2 <-iris[101:150,]
+newdata_2
+mean(newdata)
+mean(newdata, "Sepal.length")
+colMeans(newdata, na.rm = FALSE, dims =1)
+mean("newdata")
+mean(Sepal.Length)
+mean("Sepal.Length")
+rowMeans(Sepal.Length)
+rowMeans("Sepal.Length")
+mean(101:150)
+mean("101:150")
+newdatamean <- function(newdata, Sepal.Length)
+newdatamean
+newdatamean
+newdata
+colMeans("Sepal.Lentgh", na.rm=FALSE, dims = 1l)
+colMeans("Sepal.Lentgh", na.rm=FALSE)
+colMeans(newdata, na.rm=FALSE)
+lapply(newdata, FUN=colMeans)
+newdata_3 <- subset(newdata, "Sepal.Length")
+mean(newdata)
+mean(x, ...)
+mean(newdata, Sepal.Length)
+swirl()
+library("swirl")
+ls()
+rm(list=list())
+rm(list=ls())
+swirl()
+2
+2
+2
+by()
+bye()
+swirl()
+range(cars$price)
+61.9-7.4
+var(data)
+vardata(cars$price)
+var(cars$price)
+sd(cars$price)
+25
+20
+bye()
+library(datasets)
+data(iris)
+iris
+new_iris <- iris(101:105)
+new_iris <- iris[101:105]
+new_iris <- iris[101:105,]
+new_iris
+new_iris <- iris[101:150,]
+new_iris
+mean(new_iris$Sepal.Length)
+colMeans(iris)
+apply(iris[, 1:4], 1, mean)
+rowMeans(iris[, 1:4])
+apply(iris[, 1:4], 2, mean)
+mean(iris$Sepal.Length)
+mean(iris$Sepal.Width)
+library(datasets)
+data(mtcars)
+mtcars
+sapply(split(mtcars$mpg, mtcars$cyl), mean)
+sapply(split(mtcars$hp, mtcars$cyl), mean)
+8-4
+209.21429 - 82.63636
+debug(ls)
